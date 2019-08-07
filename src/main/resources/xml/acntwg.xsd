@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://localhost/springsoap/gen"
+           targetNamespace="http://localhost/springsoap/gen" elementFormDefault="qualified">
+
+    <xs:element name="getAcntwgRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="acntno" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getAcntwgResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="result" type="xs:double"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

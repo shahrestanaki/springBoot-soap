@@ -1,0 +1,3 @@
+2019-08-07 10:46:43.442  WARN 10412 --- [http-nio-8043-exec-9] javax.xml.soap                           : Using deprecated META-INF/services mechanism with non-standard property: javax.xml.soap.MetaFactory. Property javax.xml.soap.SAAJMetaFactory should be used instead.
+2019-08-07 10:47:04.944 DEBUG 10412 --- [http-nio-8043-exec-6] org.hibernate.SQL                        : select acntwg0_.wage as col_0_0_ from viw_acntwg acntwg0_ where acntwg0_.acntno=?
+2019-08-07 10:47:05.044 TRACE 10412 --- [http-nio-8043-exec-6] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [شسیش]
